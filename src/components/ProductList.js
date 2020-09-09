@@ -6,28 +6,35 @@ import { v4 } from 'uuid';
 const masterProductList = [
   {
     name: "Ninja Sh%t",
-    price: "$49.99"
+    price: "$49.99",
+    key: v4()
   },
   {
     name: "More Ninja Sh%t",
-    price: "$59.99"
+    price: "$59.99",
+    key: v4()
   },
   {
     name: "Kunai",
-    price: "$9.99"
+    price: "$9.99",
+    key: v4()
   }
 ]
+
+
 
 function ProductList(props) {
   return (
     <React.Fragment>
       <hr />
-      {masterProductList.map((product) => 
+      {masterProductList.map((product) =>
         <Product name={product.name}
           price={product.price}
-          key={v4()} />
-      )}
-    </React.Fragment>
+          key={product.key} 
+          addToCart = {props.addToCart}/>
+      )
+      }
+    </React.Fragment >
   );
 }
 
