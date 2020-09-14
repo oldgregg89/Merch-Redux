@@ -4,7 +4,7 @@ By Deryck Jackson, Ian Gregg, Jeff Kim, Kyle Hubbard, Christine Augustine
 
 ## Description
 
-Mock merch site with CRUD functionality. 
+Mock merch site with CRUD functionality and Redux testing. 
 
 ## Preview
 
