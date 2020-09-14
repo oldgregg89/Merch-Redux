@@ -31,11 +31,9 @@ Mock merch site with CRUD functionality.
 
 ## Support and contact details
 
-* Deryck Jackson
 * Ian Gregg
 * Jeff Kim
 * Kyle Hubbard
-* Christine Augustine
 
 ## Technologies Used
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -49,6 +47,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### License
 
-Copyright (c) 2020 **_Deryck Jackson, Ian Gregg, Jeff Kim, Kyle Hubbard, Christine Augustine_**
+Copyright (c) 2020 **_Ian Gregg, Jeff Kim, Kyle Hubbard_**
 
 This software is licensed under the MIT license.
